@@ -9,14 +9,18 @@
         <link rel="manifest" href="favicon/site.webmanifest">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
-        <link rel="stylesheet" type="text/css" href="css/normalise.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
       <!---Header Section!--->
       <header>
         <div>
-            <img src="img/logo.svg" alt="AmaBrew">
+            <img src="img/logo.svg" alt="AmaBrew" class="logo">
             <nav>
                 <ul>
                     <li><a href="index.html">Work</a></li>
@@ -33,17 +37,17 @@
                 </div>
             </div>
             <div>
-                <div> <!---container-->
+                <div> <!---about me-->
                     <picture>
                         <img src="img/profile_pic.jpg" alt="My Image">
                     </picture>
-                    <div> <!---column-->
+                    <div> <!---info-->
                         <div>
                             <h2>Who am I?</h2>
                             <p>Hi, I’m Ama, a UI/UX designer based in London, United Kingdom. I’ve recently started my human design journey after working as 
                                 a Research Scientist in paediatric cancers. I enjoy gathering data, forming, and testing ideas, evaluating outcomes and 
                                 implementing- bringing a vision to life. I love to design and create things and I am egar to turn great ideas into visually apealling digital products everyone can use.</p>
-                                <a href="files/ama_brew_cv.pdf">Here's my CV!</a>
+                                <a href="files/ama_brew_cv.pdf" class="botton contact">Here's my CV!</a>
                         </div>
                     </div>
                     <div>
@@ -83,10 +87,10 @@
         </main>
         <footer id="contact"> 
         <div>
-            <h2>Get in touch</h2>
+            <h2>Get in touch</h2> <!--contactsection-->
             <p>Looking for a designer for your next project? Contact me!</p>
             <div>
-                <a href="brewama16@gmail.com">Email Me</a>
+                <a href="brewama16@gmail.com" class="botton contact">Email Me</a>
             </div>
             <div>
                 <!--Social media handles-->

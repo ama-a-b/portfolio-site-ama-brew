@@ -1,0 +1,95 @@
+html {
+    font-size:62.5%;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family:'nunito', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #000000;
+}
+
+h1, h2, h3, h4{
+    color:#4C4E4E;
+}
+
+h1{
+    font-size:5rem;
+    font-weight:600;
+}
+
+h2{
+    font-size:4rem;
+    font-weight:400;
+}
+
+h3{
+    font-size:3rem;
+    font-weight:300;
+}
+
+h4{
+    font-size:2rem;
+    font-weight:200;
+}
+
+img{
+    width: 100%;
+}
+
+.logo{
+    max-width: 100px;
+}
+
+a{
+    color:#58A8A0;
+}
+
+a:visited{
+    color:#58A8A0;
+}
+
+a:hover, a:focus{
+    text-decoration:none;
+    color:#1456af;
+    font-weight: 500; 
+}
+
+a:active{
+    color:#000000;
+}
+
+.button{
+    display: inline-block;
+    background-color: #1456af;
+    color:#FFFFFF;
+    font-size: 2rem;
+    font-weight: 500;
+    padding:15px;
+    border-radius: 3px;
+    border-bottom: 2px;
+    transition: 0.2s opacity;
+}
+
+.button::visited{
+    color:#FFFFFF;
+}
+
+.button:hover, button:focus{
+    text-decoration:none;
+    color:#000000;
+    opacity: 0.8;
+}
+
+.button::active{
+    color:#8a8887;  
+}
+
+.botton.contact{
+    background-color: transparent;
+    color: #1456af; 
+    text-transform: uppercase;
+    border: 2px solid #1456af;
+}
