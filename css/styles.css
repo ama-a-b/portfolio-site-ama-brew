@@ -20,6 +20,10 @@ h1{
     font-weight:600;
 }
 
+.about-page h1{
+    font-size: 3rem;
+}
+
 h2{
     font-size:4rem;
     font-weight:400;
@@ -40,7 +44,7 @@ img{
 }
 
 .logo{
-    max-width: 100px;
+    max-width: 80px;
 }
 
 a{
@@ -69,11 +73,12 @@ a:active{
     font-weight: 500;
     padding:15px;
     border-radius: 3px;
-    border-bottom: 2px;
+    border-bottom: solid 2px;
     transition: 0.2s opacity;
+    text-decoration: none;
 }
 
-.button::visited{
+.button:visited{
     color:#FFFFFF;
 }
 
@@ -83,13 +88,61 @@ a:active{
     opacity: 0.8;
 }
 
-.button::active{
+.button:active{
     color:#8a8887;  
 }
 
-.botton.contact{
+.button.contact{
     background-color: transparent;
     color: #1456af; 
     text-transform: uppercase;
     border: 2px solid #1456af;
+}
+
+/*Layout styling*/
+
+.container {
+    padding: 0 15px;
+}
+
+main {
+    padding-top: 193px;
+}
+
+header {
+    background-color: #ff44c4;
+    padding: 10px 0; 
+    border-bottom: 3px solid #4a4a4a;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.row {
+    margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  }
+
+.about-page .intro .column:last-child {
+    order: -1;
+}
+
+.about-page .intro {
+    display: flex;
+    flex-direction: column;
+}
+
+#summary {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    padding: 0 15px;
 }
