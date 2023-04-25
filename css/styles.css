@@ -131,7 +131,11 @@ header {
     flex-direction: column;
 }
 
-#summary {
+.section {
+    padding: 30px;
+}
+
+.section-summary {
     text-align: center;
     padding: 20px 0;
 }
