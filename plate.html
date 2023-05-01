@@ -18,17 +18,17 @@
     </head>
     <body class="project-page">
         <header>  <!---Header Section!--->
-            <div>
-               <img src="img/logo.svg" alt="AmaBrew" class="logo">
-               <nav>
-                   <ul>
-                       <li><a href="index.html">Work</a></li> 
-                       <li><a href="about.html">About</a></li>
-                       <li><a href="#contact">Contacts</a></li>
-                   </ul>
-               </nav>
-           </div>
-       </header>
+            <div class="container">
+                <img src="img/logo.svg" alt="AmaBrew" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
        <main><!--Main work-->
         <div class="section">
             <div class="container">
@@ -74,23 +74,29 @@
         <div class="section">
             <div class="container">
                 <h2>User Research</h2>
-                <div class="row">
-                    <img src="img/plate/ur_1.svg" alt="My Image"> 
-                </div>
-                <div class="row">
-                    <img src="img/plate/ur_2.svg" alt="My Image"> 
-                </div>
-                <div class="row">
-                    <img src="img/plate/ur_3.svg" alt="My Image"> 
-                </div>
-                <div class="row">
-                    <img src="img/plate/ur_4.svg" alt="My Image"> 
-                </div>
-                <div class="row">
-                    <img src="img/plate/ur_5.svg" alt="My Image"> 
-                </div>
-                <div class="row">
-                    <img src="img/plate/ur_6.svg" alt="My Image"> 
+                <div class="row"> 
+                    <div class="row line-one">
+                        <div class="column col-md-30">
+                            <img src="img/plate/ur_1.svg" alt="My Image"> 
+                        </div>
+                        <div class="column col-md-30">
+                            <img src="img/plate/ur_2.svg" alt="My Image"> 
+                        </div>
+                        <div class="column col-md-30">
+                            <img src="img/plate/ur_3.svg" alt="My Image"> 
+                        </div>
+                    </div>
+                    <div class="row line-two">
+                        <div class="column col-md-30">
+                            <img src="img/plate/ur_4.svg" alt="My Image"> 
+                        </div>
+                        <div class="column col-md-30">
+                            <img src="img/plate/ur_5.svg" alt="My Image"> 
+                        </div>
+                        <div class="column col-md-30">
+                            <img src="img/plate/ur_6.svg" alt="My Image"> 
+                        </div>
+                   </div>
                 </div>
             </div>
         </div>
@@ -172,44 +178,48 @@
             <div class="container"> <!--Tests-->
                 <h2>Usability Test</h2>
                 <div class="row">
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/responsive-screen-xs-x1.jpg" media="(max-width:767px)">
-                            <img src="img/plate/xs-x2.jpg" alt="My Image"> 
-                        </picture>
+                    <div class="row test">
+                        <div class="column col-md-15">
+                            <picture>
+                                <source src="img/plate/responsive-screen-xs-x1.jpg" media="(max-width:767px)">
+                                <img src="img/plate/xs-x2.jpg" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-30">
+                            <picture>
+                                <source src="img/plate/responsive-screen-s-x1.jpg" media="(max-width:767px)">
+                                <img src="img/plate/s-x2.jpg" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-30">
+                            <picture>
+                                <source src="img/plate/responsive-screen-m-x1.jpg" media="(max-width:767px)">
+                                <img src="img/plate/m-x2.jpg" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-50">
+                            <picture>
+                                <source src="img/plate/responsive-screen-l-x1.jpg" media="(max-width:767px)">
+                                <img src="img/plate/l-x2.jpg" alt="My Image"> 
+                            </picture>
+                        </div>
                     </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/responsive-screen-s-x1.jpg" media="(max-width:767px)">
-                            <img src="img/plate/s-x2.jpg" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/responsive-screen-m-x1.jpg" media="(max-width:767px)">
-                            <img src="img/plate/m-x2.jpg" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/responsive-screen-l-x1.jpg" media="(max-width:767px)">
-                            <img src="img/plate/l-x2.jpg" alt="My Image"> 
-                        </picture>
-                    </div>
+                    <div class="row">
                 </div>
-                <div class="row">
                     <h3>Issues</h3>
-                    <div class="column">
-                        <p>Change the colours of the toggle switch as the contrast to the background is rather high.</p>
-                    </div>
-                    <div class="column">
-                        <p>I would also prefer making the picture a bit smaller on screen XS and S as it takes up a lot of space for other information of the recipe such as ingredients.</p>
-                    </div>
-                    <div class="column">
-                        <p>I also quite like the logo! You should try and incorporate it into the header of your smaller screens. May feel cluttered but could be worth a look!</p>
-                    </div>
-                    <div class="column">
-                        <p>I believe that “Cajun Chicken Pasta” should be capitalized since its the name of the dish.</p>
+                    <div class="row issues">
+                        <div class="column col-md-20">
+                            <p>Change the colours of the toggle switch as the contrast to the background is rather high.</p>
+                        </div>
+                        <div class="column col-md-20">
+                            <p>I would also prefer making the picture a bit smaller on screen XS and S as it takes up a lot of space for other information of the recipe such as ingredients.</p>
+                        </div>
+                        <div class="column col-md-20">
+                            <p>I also quite like the logo! You should try and incorporate it into the header of your smaller screens. May feel cluttered but could be worth a look!</p>
+                        </div>
+                        <div class="column col-md-20">
+                            <p>I believe that “Cajun Chicken Pasta” should be capitalized since its the name of the dish.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -226,35 +236,35 @@
                     <p>I chose a shade blue and peach to be the main colours of the app as it is associated with calmness, warmth, trust and loyalty.</p>
                 </div>
                 <div class="row">
-                    <h3>Icons</h3>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/icons-x1.png" media="(max-width:767px)">
-                            <img src="img/plate/icons-x2.png" alt="My Image">
-                        </picture>  
-                        <p>The icons chosen are slightly rounded to give a more youthful and playful feel..</p>
+                    <div class="row icon-elements">
+                        <div class="column col-md-50">
+                            <h3>Icons</h3>
+                            <picture>
+                                <source src="img/plate/icons-x1.png" media="(max-width:767px)">
+                                <img src="img/plate/icons-x2.png" alt="My Image">
+                            </picture>  
+                            <p>The icons chosen are slightly rounded to give a more youthful and playful feel.</p>
+                        </div>
+                        <div class="column col-md-50">
+                            <h3>UI Elements</h3>
+                            <picture>
+                                <source src="img/plate/ui-elements-x1.png" media="(max-width:767px)">
+                                <img src="img/plate/ui-elements-x2.png" alt="My Image">
+                            </picture>  
+                        </div> 
                     </div>
-                    <div class="column">
-                        <h3>UI Elements</h3>
-                        <picture>
-                            <source src="img/plate/ui-elements-x1.png" media="(max-width:767px)">
-                            <img src="img/plate/ui-elements-x2.png" alt="My Image">
-                        </picture>  
-                    </div> 
                 </div>
                 <div class="row">
                     <h3>Logo</h3>
-                    <div class="column">
-                        <h4>Wordmark</h4>
-                        <picture>
-                            <img src="img/plate/wordmark.svg" alt="My Image">
-                        </picture> 
-                    </div> 
-                    <div class="column">
-                        <h4>Logo</h4>
-                        <picture>
-                            <img src="img/plate/logo.svg" alt="My Image">
-                        </picture> 
+                    <div class="row logo-project">
+                        <div class="column col-md-50">
+                            <h4>Wordmark</h4>
+                                <img src="img/plate/wordmark.svg" alt="My Image">
+                        </div> 
+                        <div class="column col-md-50">
+                            <h4>Logo</h4>
+                                <img src="img/plate/logo.svg" alt="My Image">
+                        </div>
                     </div> 
                     <p>The name is short and simple. It’s a play on what we we hope users will do, make a ‘plate’ of food. The logo combines a fork and knife, representing food.</p>
                 </div>
@@ -278,23 +288,25 @@
                     <p>As Plate is not only a native mobile app but a responsive web app, I have created designs that would adapt to different breakpoints. </p>
                 </div>
                 <div class="row">
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/iphone-12-pro-x1.jpg" media="(max-width:767px)">
-                            <img src="img/plate/iphone-12-pro-x2.jpg" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/macbook-pro-x1.jpg" media="(max-width:767px)">
-                            <img src="img/plate/macbook-pro-x2.jpg" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/ipad-air-6-x1.jpg" media="(max-width:767px)">
-                            <img src="img/plate/ipad-air-x2.jpg" alt="My Image"> 
-                        </picture>
+                    <div class="row responsive-screens">
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/iphone-12-pro-x1.jpg" media="(max-width:767px)">
+                                <img src="img/plate/iphone-12-pro-x2.jpg" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-80">
+                            <picture>
+                                <source src="img/plate/macbook-pro-x1.jpg" media="(max-width:767px)">
+                                <img src="img/plate/macbook-pro-x2.jpg" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-30">
+                            <picture>
+                                <source src="img/plate/ipad-air-6-x1.jpg" media="(max-width:767px)">
+                                <img src="img/plate/ipad-air-x2.jpg" alt="My Image"> 
+                            </picture>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -306,194 +318,206 @@
                     <h3>Flow #1: Continue as a guest</h3>
                     <p>Users are given 3 options before they use the app. They can sign up as a new member, sign in if they have not registered already or continue as a guest where they can browse the app without sharing their details. They are also  given the opportunity to tailor the recipes presented to them by answering some questions on their preferences.</p>
                     <p>The homepage allows users to access an extensive range of recipes and tutorials and also to navigate all the services.</p>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/as_guest_1_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/as_guest_1_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/as_guest_2_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/as_guest_2_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/as_guest_3_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/as_guest_3_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/as_guest_4_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/as_guest_4_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/as_guest_5_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/as_guest_5_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/as_guest_6_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/as_guest_6_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                </div>
-                <div class="row">
-                    <h4>Homepage</h4>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/homepage_1_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/homepage_1_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/homepage_2_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/homepage_2_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/homepage_3_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/homepage_3_x2.png" alt="My Image"> 
-                        </picture>
+                    <div class="row final-screens">
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/as_guest_1_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/as_guest_1_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/as_guest_2_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/as_guest_2_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/as_guest_3_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/as_guest_3_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/as_guest_4_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/as_guest_4_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/as_guest_5_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/as_guest_5_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/as_guest_6_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/as_guest_6_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <h3>Flow #2:Save a recipe</h3>
+                    <p>Homepage</p>
+                    <div class="row final-screens">
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/homepage_1_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/homepage_1_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/homepage_2_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/homepage_2_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/homepage_3_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/homepage_3_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h3>Flow #2: Save a recipe</h3>
                     <p>Before users are able to save a recipe, they must sign in. If they started off browsing the app as a guest, a popup will appear for them to either log in or sign up. Whist browsing a recipe, users adjust the serving size which will incrementally adjust the serving of each ingredient either up or down.</p>
-                    <h4>Homepage</h4>
-                    <div class="column">
+                    <p>Recipie Page</p>
+                   <div class="row final-screens">
+                    <div class="column col-md-20">
                         <picture>
                             <source src="img/plate/save_recipe_1_x1.png" media="(max-width:767px)">
                             <img src="img/plate/save_recipe_1_x2.png" alt="My Image"> 
                         </picture>
                     </div>
-                    <div class="column">
+                    <div class="column col-md-20">
                         <picture>
                             <source src="img/plate/save_recipe_2_x1.png" media="(max-width:767px)">
                             <img src="img/plate/save_recipe_2_x2.png" alt="My Image"> 
                         </picture>
                     </div>
-                    <div class="column">
+                    <div class="column col-md-20">
                         <picture>
                             <source src="img/plate/save_recipe_3_x1.png" media="(max-width:767px)">
                             <img src="img/plate/save_recipe_3_x2.png" alt="My Image"> 
                         </picture>
                     </div>
-                    <div class="column">
+                    <div class="column col-md-20">
                         <picture>
                             <source src="img/plate/save_recipe_4_x1.png" media="(max-width:767px)">
                             <img src="img/plate/save_recipe_4_x2.png" alt="My Image"> 
                         </picture>
                     </div>
-                    <div class="column">
+                    <div class="column col-md-20">
                         <picture>
                             <source src="img/plate/save_recipe_5_x1.png" media="(max-width:767px)">
                             <img src="img/plate/save_recipe_5_x2.png" alt="My Image"> 
                         </picture>
                     </div>
-                    <div class="column">
+                    <div class="column col-md-20">
                         <picture>
                             <source src="img/plate/save_recipe_6_x1.png" media="(max-width:767px)">
                             <img src="img/plate/save_recipe_6_x2.png" alt="My Image"> 
                         </picture>
                     </div>
+                   </div>
                 </div>
                 <div class="row">
-                    <h3>Flow #3:Search and share a recipe</h3>
+                    <h3>Flow #3: Search and share a recipe</h3>
                     <p>User can search for recipes and share it to friends and family. There are various ways in which users can share a  recipes such as, Pinterest, Twitter, email and Facebook.</p>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/search_share_1_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/search_share_1_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/search_share_2_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/search_share_2_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/search_share_3_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/search_share_3_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/search_share_4_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/search_share_4_x2.png" alt="My Image"> 
-                        </picture>
+                    <div class="row final-screens">
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/search_share_1_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/search_share_1_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/search_share_2_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/search_share_2_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/search_share_3_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/search_share_3_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/search_share_4_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/search_share_4_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <h3>Flow #3:Leftover Options</h3>
-                    <h4>Homepage</h4>
+                    <h3>Flow #4: Leftover Options</h3>
+                    <p>Recipe Page</p>
                     <p>To reduce waste, users are given ideas on what they can make with the leftovers.</p>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/leftover_1_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/leftover_1_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/leftover_2_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/leftover_2_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/leftover_3_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/leftover_3_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/leftover_4_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/leftover_4_x2.png" alt="My Image"> 
-                        </picture>
+                    <div class="row final-screens">
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/leftover_1_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/leftover_1_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/leftover_2_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/leftover_2_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/leftover_3_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/leftover_3_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/leftover_4_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/leftover_4_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <h3>Flow #5: Extensive filtering option</h3>
                     <p>Users can filter to narrow down your recipe choice. As they narrow down, the recipe choices becomes more specific to their needs.</p>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/filtering_1_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/filtering_1_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/filtering_2_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/filtering_2_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/filtering_3_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/filtering_3_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/filtering_4_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/filtering_4_x2.png" alt="My Image"> 
-                        </picture>
-                    </div>
-                    <div class="column">
-                        <picture>
-                            <source src="img/plate/filtering_5_x1.png" media="(max-width:767px)">
-                            <img src="img/plate/filtering_5_x2.png" alt="My Image"> 
-                        </picture>
+                    <div class="row final-screens">
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/filtering_1_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/filtering_1_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/filtering_2_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/filtering_2_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/filtering_3_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/filtering_3_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/filtering_4_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/filtering_4_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
+                        <div class="column col-md-20">
+                            <picture>
+                                <source src="img/plate/filtering_5_x1.png" media="(max-width:767px)">
+                                <img src="img/plate/filtering_5_x2.png" alt="My Image"> 
+                            </picture>
+                        </div>
                     </div>
                 </div>
             </div>
