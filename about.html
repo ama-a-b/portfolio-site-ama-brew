@@ -19,20 +19,24 @@
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/20f502f007.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="about-page">
     <!---Header Section!--->
     <header>
         <div class="container">
-            <img src="img/logo.svg" alt="AmaBrew" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#contact">Contacts</a></li>
-                </ul>
-            </nav>
+            <div class="navtoggle" id="myNavtoggle">
+                <a href="index.html"><img src="img/logo.svg" alt="AmaBrew" class="logo">
+                    <nav></a>
+                        <ul>
+                            <li><a href="index.html" class="nav button">Work</a></li>
+                            <li><a href="about.html" class="nav button">About</a></li>
+                            <li><a href="#contact" class="nav button" onclick="menuToggle()">Get in Touch</a></li>
+                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                        </ul>
+                    </nav>
+            </div>
         </div>
     </header>
     <main>
@@ -44,7 +48,7 @@
         <div class="section">
             <div class="container"> <!---about me-->
                 <div class="row intro"> <!---info-->
-                    <div class="column col-md-70">
+                    <div class="column col-md-60">
                         <h2>Who am I?</h2>
                         <p>Hi, I’m Ama, a UI/UX designer based in London, United Kingdom. I’ve recently started my human
                             design journey after working as
@@ -54,7 +58,7 @@
                             turn great ideas into visually apealling digital products everyone can use.</p>
                         <a href="files/ama_brew_cv.pdf" class="botton contact">Here's my CV!</a>
                     </div>
-                    <div class="column col-md-30">
+                    <div class="column col-md-40">
                         <img src="img/profile_pic.jpg" alt="My Image">
                     </div>
                 </div>
@@ -114,6 +118,7 @@
             <p>Copyright Ama Brew 2020</p>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
 
