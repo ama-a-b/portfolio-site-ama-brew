@@ -11,22 +11,44 @@ body {
     font-family:'nunito', sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1.8;
     color: #000000;
 }
 
 h1, h2, h3, h4{
-    color:#4C4E4E;
-    margin-top: 0;
+    color:#873C13;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h1{
     font-size:5rem;
     font-weight:600;
+    margin-bottom: 0;
 }
 
 .about-page h1{
+    font-size: 6rem;
+}
+
+.intro-heading h1{
+    font-size: 7rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.project-page h1 {
+    font-size: 10rem;
+    font-weight: 900;
+    color: #58A8A0;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro-heading .highlight-2 {
     font-size: 3rem;
+    font-weight: 700;
 }
 
 h2{
@@ -34,9 +56,36 @@ h2{
     font-weight:400;
 }
 
+.project-page h2 {
+    font-weight: bold;
+    color: #58A8A0;
+}
+
+.intro-heading h2{
+    font-size: 3rem;
+    color: #000000;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.work h2 {
+    font-weight: bold;
+}
+
 h3{
     font-size:3rem;
     font-weight:300;
+}
+
+.work-space h3 {
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 5px;
+}
+
+.project-page h3 {
+    font-weight: bold;
+    color: #838c8b;
 }
 
 h4{
@@ -44,25 +93,39 @@ h4{
     font-weight:200;
 }
 
+.project-page h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #a4a5a5;
+}
+    
+.work-space h4 {
+    color: #6f6f6f;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
 img{
     width: 100%;
+    margin-top: 40px;
 }
 
 .logo{
-    max-width: 90px;
+    max-width: 50px;
 }
 
 a{
-    color:#58A8A0;
+    color:#a44613;
 }
 
 a:visited{
-    color:#58A8A0;
+    color:#a44613;
 }
 
 a:hover, a:focus{
     text-decoration:none;
-    color:#1456af;
+    color:#a44613;
     font-weight: 500; 
 }
 
@@ -72,13 +135,13 @@ a:active{
 
 .button{
     display: inline-block;
-    background-color: #1456af;
-    color: #ff44c4;
+    background-color: #c96b13;
+    color: #FFFFFF;
     font-size: 2rem;
     font-weight: 500;
     padding:10px;
     border-radius: 3px;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #5B270C;
     transition: 0.2s opacity;
     text-decoration: none;
 }
@@ -87,29 +150,22 @@ a:active{
     color:#FFFFFF;
 }
 
-.button:hover, button:focus{
-    text-decoration:none;
-    color:#000000;
-    opacity: 0.8;
-}
-
 .button:active{
-    color:#8a8887;  
+    color:#000000;  
 }
 
 .button.contact{
     background-color: transparent;
-    color: #1456af; 
+    color: #c96b13; 
     text-transform: uppercase;
-    border: 2px solid #1456af;
+    border: 3px solid #c96b13;
     transition: 0.2s opacity;
 }
 
 .button:hover, button:focus{
     text-decoration:none;
-    color:#000000;
-    opacity: 0;
-    background: #1456af;
+    color:#E3BE5E;
+    background: #5B270C;
 }
 
 /*Layout styling*/
@@ -119,19 +175,22 @@ a:active{
 }
 
 main {
-    padding-top: 140px;
+    padding-top: 75px;
 }
 
 header {
-    background-color: #ff44c4;
+    background-color: #FFFFFF;
     padding: 10px 0 4px; 
-    border-bottom: 3px solid #4a4a4a;
+    /*border-bottom: 3px solid #f76414;*/
     position: fixed;
     width: 100%;
+    box-shadow: 0px 7px 32px 0px rgba(239,229,229,0.75);
+    -webkit-box-shadow: 0px 7px 32px 0px rgba(239,229,229,0.75);
+    -moz-box-shadow: 0px 7px 32px 0px rgba(239,229,229,0.75);
+    z-index: 999;
 }
-
 .row {
-    margin: 60px 0; /* 25px top and bottom, 0 left and right */
+    margin: 20px 0; /* 25px top and bottom, 0 left and right */
   }
 
 .about-page .intro .column:last-child {
@@ -141,6 +200,7 @@ header {
 .about-page .intro {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 .section {
@@ -161,29 +221,32 @@ nav ul{
     padding: 0;
     justify-content: space-around;
     margin: 0;
+    text-transform: uppercase;
 }
 
 nav a {
-    color:#58A8A0;
+    color:#873C13;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 nav a:visited {
-    color:#58A8A0;
+    color:#873C13;
 }
 
-nav a:hover, button:focus{
-    text-decoration:none;
-    color:#000000;
-    opacity: 0.8;
+nav a:hover, nav a:focus{
+    color:#edc655;
 }
 
 nav:active {
-    color:#8a8887; 
+    color:#be5e2a; 
 }
 
 footer {
-    padding: 30px 0 15px;
-    text-align: center}
+    padding: 40px 0 15px;
+    text-align: center;
+    background-color: #fffaf0;
+}
 
 .social {
     display: flex; 
@@ -212,6 +275,10 @@ footer {
 .svg.berlin-illustration {
     width: 100%;
 } 
+
+.navtoggle > a {
+    line-height: 1;
+}
 
 .navtoggle li:not(:last-child) {
     display: none;
@@ -243,16 +310,85 @@ footer {
     padding: 24px 0 0;
 }
 
+.fa-bars {
+    color: #E3BE5E;
+}
+
+.highlight {
+    font-weight: 700;
+}
+
+.split-colour {
+    background: linear-gradient(to right, #B4DCE9 0%, #B4DCE9 50%, #FBEAD0 50%, #FBEAD0 100%);
+}
+
+.research {
+    position: relative;
+}
+
+.research .shape_1 {
+    width: 300px;
+    position: absolute;
+    top: 163px;
+    height: auto;
+    left: -47px;
+    z-index: -1;
+}
+
+.research .shape_1 path {
+    fill: #B4DCE9;
+}
+
+.research .shape_2 {
+    width: 200px;
+    position: absolute;
+    bottom: 130px;
+    height: auto;
+    right: -47px;
+    z-index: -1;
+}
+
+.research .shape_2 path {
+    fill: #4bb5d8;
+}
+
+.research .curve-line {
+    width: 100%;
+    position: absolute;
+    top: 190px;
+    z-index: -1;
+    height: auto;
+}
+
+.research .curve-line path {
+    stroke: ;
+    stroke-width: ;
+}
+
 /* Medium devices (640px and larger) */
 @media only screen and (min-width: 640px) {
+
+    body {
+        font-size: 1.8rem;
+    }
+
     header {
         text-align: unset;
         padding: 20px 0 13px;
     }
+
     header .container {
+        max-width: 1450px;
+    }
+
+    header .navtoggle {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .navtoggle img {
+        margin: 20px;
     }
 
     nav > ul {
@@ -260,7 +396,7 @@ footer {
     }
 
     nav li {
-        margin-left: 10px;
+        margin-left: 28px;
     }
 
     nav > ul > li {
@@ -274,6 +410,11 @@ footer {
     .about-page .intro {
         flex-direction: row;
         gap: 50px;
+    }
+
+    .about-page .intro img {
+        position: sticky;
+        top: 18rem;
     }
 
     .about-page .intro .col-md-70 {
@@ -323,7 +464,7 @@ footer {
     }
 
     .logo {
-        max-width: 80px;
+        max-width: 65px;
     }
 
     .skills-tools {
@@ -340,14 +481,18 @@ footer {
         padding: 30px;
         /* border: 3px solid #000000; */
         border-radius: 20px;
-        box-shadow: 1px -2px 13px 0px rgba(0,0,0,0.3);
-        -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.3);
-        -moz-box-shadow: 1px -2px 13px 0px rgba(0,0,0,0.3);
+        box-shadow: 13px 11px 19px -10px rgba(170,170,170,0.75);
+        -webkit-box-shadow: 13px 11px 19px -10px rgba(170,170,170,0.75);
+        -moz-box-shadow: 13px 11px 19px -10px rgba(170,170,170,0.75);
     }
 
     .work-space {
         max-width: 600px;
         margin: 0 auto;
+    }
+
+    .work .work-space {
+        padding: 70px 40px;
     }
 
     .container {
@@ -356,12 +501,7 @@ footer {
     }
 
     header {
-        padding: 5px 0; 
-        border-bottom: 3px solid #4a4a4a;
-    }
-
-    .logo{
-        max-width: 50px;
+        padding: 2px 0; 
     }
 
   .final-screens {
@@ -383,13 +523,13 @@ footer {
 
     .row.logo-project {
         display: flex;
-        padding: 30px 0 20px;
+        padding: 5px 0 20px;
         gap: 90px;
     }
 
     .row .issues {
         display: flex;
-        padding: 5px 0;
+        padding: 0 0;
         gap: 60px;
     }
 
@@ -422,6 +562,7 @@ footer {
     .about-page .intro .column {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     
     .about-page .intro .column: :last-child {
@@ -450,6 +591,10 @@ footer {
 
 /* Large devices (1024px or larger) */
 @media only screen and (min-width: 1024px) {
+    body {
+        font-size: 2rem;
+    }
+
     .col-lg-10 {
         width: 10%;
     }
@@ -496,8 +641,9 @@ footer {
         padding: 0 2em;
     }
 
-    .work-space {
-
+    .about-page .intro img {
+        position: relative;
+        top: unset;
     }
 }
 

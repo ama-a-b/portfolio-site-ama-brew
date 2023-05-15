@@ -21,50 +21,80 @@
         <header> 
              <div class="container"> 
                 <div class="navtoggle" id="myNavtoggle">
-                    <a href="index.html"><img src="img/logo.svg" alt="AmaBrew" class="logo">
-                        <nav></a>
-                            <ul>
-                                <li><a href="index.html" class="nav button">Work</a></li>
-                                <li><a href="about.html" class="nav button">About</a></li>
-                                <li><a href="#contact" class="nav button" onclick="menuToggle()">Get in Touch</a></li>
-                                <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-                            </ul>
-                        </nav>
+                    <a href="index.html"><img src="img/logo.svg" alt="AmaBrew" class="logo"></a>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#work-section">Work</a></li>
+                            <li><a href="about.html">About Me</a></li>
+                            <li><a href="#contact" onclick="menuToggle()">Get in Touch</a></li>
+                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </header>
         <main>
             <div class="section">
-                <div class="container">
-                    <h1>Hi there!</h1>
-                    <p>I’m Ama, a UI/UX designer focused on the ‘what’ and ‘why’ to deliver optimal solutions using user-centric design principles. I am ready to make a difference in a design team that explores healthy design whilst prioritising the user’s experience.</p>
+                <div class="container intro-heading">
+                    <h1>Hey, I'm <span class=highlight> Ama!</span> </h1>
+                    <h2>A <span class="highlight-2"> UI/UX dessigner</span> with a 'past life' in scientific research. I am focused on the ‘what’ and ‘why’ to deliver <span class="highlight-2"> optimal design solutions</span> that will have a <span class="highlight-2"> positive impact</span> for users and change lives for the better.</h2>
                 </div>
             </div>
-            <div class="section work"> <!--projects-->
+            <div class="section work" id="work-section"> <!--projects-->
                 <div class="container work-space"> 
                     <h2>My Work</h2>
                     <div class="row">
-                         <div class="column col-md-50 col-lg-40">
-                             <img src="img/plate/logo.svg" alt="My Image">
+                         <div class="column col-md-60 col-lg-60">
+                            <picture>
+                                <source src="img/plate/plate_cover.jpg" media="(max-width:767px)">
+                                <img src="img/plate/plate_cover.jpg" alt="My Image">
                         </div>
-                        <div class="column col-md-50 col-lg-60">
-                             <h3>Plate</h3>
-                            <p>The ultimate responsive web app designed for all cooks looking to expand their palette. This project projects highlights how 
-                                research leads to a product concept and how screen designs are adapted to different breakpoints.</p>
-                            <p>My roles for this project was a Researcher, UX designer and UI designer.</p>
+                        <div class="column col-md-40 col-lg-40">
+                             <h3>PLATE</h3>
+                             <h4>UI/UX DESIGN CASE STUDY</h4>
+                             <p>A smart cooking responsive web app designed for all cooks looking to expand their palette. </p>
                             <a href="plate.html" class="button">Read More</a>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="column col-md-50 col-lg-40">
-                            <img src="img/underone/logo.svg" alt="My Image">               
+                        <div class="column col-md-60 col-lg-60">
+                            <picture>
+                                <source src="img/underone/underone_cover.jpg" media="(max-width:767px)">
+                                <img src="img/underone/underone_cover.jpg" alt="My Image">        
                         </div>
-                        <div class="column col-md-50 col-lg-60">
-                            <h3>UnderOne</h3>
-                            <p>This is a design process case study for UnderOne- a finance app that users to save and track their finances better-making 
+                        <div class="column col-md-40 col-lg-40">
+                            <h3>UNDERONE</h3>
+                            <h4>UI/UX DESIGN CASE STUDY</h4>
+                            <p>A finance native app designed for Android and iOS users to save and track their finances, making 
                                 banking easier.</p>
-                            <p>My roles for this project was a Researcher and UI designer.</p>
-                             <a href="plate.html" class="button">Coming soon</a>
+                             <a href="underone.html" class="button">Coming soon</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column col-md-60 col-lg-60">
+                            <picture>
+                                <source src="img/modern/modern_cover.jpg" media="(max-width:767px)">
+                                <img src="img/modern/modern_cover.jpg" alt="My Image">        
+                        </div>
+                        <div class="column col-md-40 col-lg-40">
+                            <h3>MODERN</h3>
+                            <h4>DESIGN AND BRANDING CASE STUDY</h4>
+                            <p>A responsive ecommerce app that simplifies online homeware shopping with a modern, clean and professional design.</p>
+                             <a href="modern.html" class="button">Coming soon</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column col-md-60 col-lg-60">
+                            <picture>
+                                <source src="img/renew/renew_cover.jpg" media="(max-width:767px)">
+                                <img src="img/renew/renew_cover.jpg" alt="My Image">        
+                        </div>
+                        <div class="column col-md-40 col-lg-40">
+                            <h3>RENEW</h3>
+                            <h4>UI CASE STUDY</h4>
+                            <p>A responsive ecommerce app that simplifies online homeware shopping with a modern, clean and professional design.</p>
+                             <a href="renew.html" class="button">Coming soon</a>
                         </div>
                     </div>
                     <div class="row">
@@ -681,8 +711,8 @@
         </main>
         <footer id="contact">
             <div class="container">
-                <h2>Get in touch</h2>
-                <p>Looking for a designer for your next project? Contact me!</p>
+                <h2>Get in touch with me</h2>
+                <p>If you see somting you like or have any questions, please don't hesitate to contact me.</p>
                 <div class="email">
                     <a href="brewama16@gmail.com" class="button contact">Email Me</a>
                 </div>

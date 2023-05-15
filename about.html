@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Ama Brew - About Me</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" type="text/css"
@@ -27,12 +28,13 @@
     <header>
         <div class="container">
             <div class="navtoggle" id="myNavtoggle">
-                <a href="index.html"><img src="img/logo.svg" alt="AmaBrew" class="logo">
-                    <nav></a>
+                <a href="index.html"><img src="img/logo.svg" alt="AmaBrew" class="logo"></a>
+                    <nav>
                         <ul>
-                            <li><a href="index.html" class="nav button">Work</a></li>
-                            <li><a href="about.html" class="nav button">About</a></li>
-                            <li><a href="#contact" class="nav button" onclick="menuToggle()">Get in Touch</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.html#work-section">Work</a></li>
+                            <li><a href="about.html">About Me</a></li>
+                            <li><a href="#contact" onclick="menuToggle()">Get in Touch</a></li>
                             <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
                         </ul>
                     </nav>
@@ -42,25 +44,32 @@
     <main>
         <div class="section"> <!---Section-->
             <div class="summary-container container">
-                <h1>Ama Brew- Designer</h1>
+                <h1>Who Am I?</h1>
             </div>
         </div>
         <div class="section">
             <div class="container"> <!---about me-->
-                <div class="row intro"> <!---info-->
+                <div class="row intro intro-heading"> <!---info-->
                     <div class="column col-md-60">
-                        <h2>Who am I?</h2>
-                        <p>Hi, I’m Ama, a UI/UX designer based in London, United Kingdom. I’ve recently started my human
-                            design journey after working as
-                            a Research Scientist in paediatric cancers. I enjoy gathering data, forming, and testing
-                            ideas, evaluating outcomes and
-                            implementing- bringing a vision to life. I love to design and create things and I am egar to
-                            turn great ideas into visually apealling digital products everyone can use.</p>
-                        <a href="files/ama_brew_cv.pdf" class="botton contact">Here's my CV!</a>
+                        <h2>Hi, I’m Ama, a <span class="highlight">UI/UX designer</span> based in London who loves to find <span class="highlight">oppurtunities</span> to create <span class="highlight">valuable solutions</span> in everyday things.</h2>
+                        <p> I’ve always been fascinated by the human body, how we interact with the world around us and how I can influence and make 
+                            positive changes in human health. I studied BSc Biomedical Science and developed an appriciation for scientific research during my 
+                            industrial placement year. I enjoy gathering data, forming, and testing ideas, evaluating outcomes and implementing- bringing a vision to life. 
+                        </p>
                     </div>
                     <div class="column col-md-40">
                         <img src="img/profile_pic.jpg" alt="My Image">
                     </div>
+                </div>
+                <div class="row">
+                    <p>After spending 5+ years as a Research Scientist, I’ve decided to channel my passion for creativity, skills in visual problem solving and curious 
+                        mindset into the world of UI/UX Design. My role as a Research Scientist has equipped me with an assortment of skills including, unique perspective 
+                        in research processes, good communication, attention to detail and empathy. 
+                    </p>
+                    <a href="files/ama_brew_cv.pdf" class="botton contact">View my CV!</a>
+                </div>
+                <div class="row">
+                    <h2> A little bit more about myself!</h2>
                 </div>
                 <div class="row skills-tools"> <!---info-->
                     <h2>Skills and Tools</h2>
@@ -101,8 +110,8 @@
     </main>
     <footer id="contact">
         <div class="container">
-            <h2>Get in touch</h2> <!--contactsection-->
-            <p>Looking for a designer for your next project? Contact me!</p>
+            <h2>Get in touch with me</h2> <!--contactsection-->
+            <p>If you see somting you like or have any questions, please don't hesitate to contact me.</p>
             <div class="email">
                 <a href="brewama16@gmail.com" class="button contact">Email Me</a>
             </div>
