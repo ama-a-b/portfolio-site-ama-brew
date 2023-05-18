@@ -135,7 +135,7 @@ a:active{
 
 .button{
     display: inline-block;
-    background-color: #c96b13;
+    background-color: #B56011;
     color: #FFFFFF;
     font-size: 2rem;
     font-weight: 500;
@@ -156,9 +156,9 @@ a:active{
 
 .button.contact{
     background-color: transparent;
-    color: #c96b13; 
+    color: #B56011; 
     text-transform: uppercase;
-    border: 3px solid #c96b13;
+    border: 3px solid #B56011;
     transition: 0.2s opacity;
 }
 
