@@ -1,135 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Ama Brew - About Me</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/20f502f007.js" crossorigin="anonymous"></script>
-</head>
-
-<body class="about-page">
-    <!---Header Section!--->
-    <header>
-        <div class="container">
-            <div class="navtoggle" id="myNavtoggle">
-                <a href="index.html"><img src="img/logo.svg" alt="AmaBrew" class="logo"></a>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="index.html#work-section">Work</a></li>
-                            <li><a href="about.html">About Me</a></li>
-                            <li><a href="#contact" onclick="menuToggle()">Get in Touch</a></li>
-                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-                        </ul>
-                    </nav>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ama Brew - About Me</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/20f502f007.js" crossorigin="anonymous"></script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XKDGSZZNFE"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'G-XKDGSZZNFE');
+        </script>
+    </head>
+    <body class="about-page">
+        <!---Header Section!--->
+        <header>
+            <div class="container">
+                <div class="navtoggle" id="myNavtoggle">
+                    <a href="index.html"><img src="img/logo.svg" alt="AmaBrew" class="logo"></a>
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html#work-section">Work</a></li>
+                                <li><a href="about.html">About Me</a></li>
+                                <li><a href="#contact" onclick="menuToggle()">Get in Touch</a></li>
+                                <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                            </ul>
+                        </nav>
+                </div>
             </div>
-        </div>
-    </header>
-    <main>
-        <div class="section"> <!---Section-->
-            <div class="summary-container container">
-                <h1>Who Am I?</h1>
+        </header>
+        <main>
+            <div class="section"> <!---Section-->
+                <div class="summary-container container">
+                    <h1>Who Am I?</h1>
+                </div>
             </div>
-        </div>
-        <div class="section">
-            <div class="container"> <!---about me-->
-                <div class="row intro intro-heading"> <!---info-->
-                    <div class="column col-md-60">
-                        <h2>Hi, I’m Ama, a <span class="highlight">UI/UX designer</span> based in London who loves to find <span class="highlight">oppurtunities</span> to create <span class="highlight">valuable solutions</span> in everyday things.</h2>
-                        <p> I’ve always been fascinated by the human body, how we interact with the world around us and how I can influence and make 
-                            positive changes in human health. I studied BSc Biomedical Science and developed an appriciation for scientific research during my 
-                            industrial placement year. I enjoy gathering data, forming, and testing ideas, evaluating outcomes and implementing- bringing a vision to life. 
-                        </p>
+            <div class="section">
+                <div class="container summary-about"> <!---about me-->
+                    <div class="row intro intro-heading"> <!---info-->
+                        <div class="column col-md-60">
+                            <h2>Hi, I’m Ama, a <span class="highlight">UI/UX designer</span> based in London who loves to find <span class="highlight">opportunities</span> to create <span class="highlight">valuable solutions</span> in everyday things.</h2>
+                            <p> I’ve always been fascinated by the human body, how we interact with the world around us and how I can influence and make 
+                                positive changes in human health. I studied BSc Biomedical Science and developed an appriciation for scientific research during my 
+                                industrial placement year. I enjoy gathering data, forming, and testing ideas, evaluating outcomes and implementing- bringing a vision to life. 
+                            </p>
+                        </div>
+                        <div class="column col-md-40">
+                            <img src="img/profile_pic.jpg" alt="My Image">
+                        </div>
                     </div>
-                    <div class="column col-md-40">
-                        <img src="img/profile_pic.jpg" alt="My Image">
-                    </div>
-                </div>
-                <div class="row">
-                    <p>After spending 5+ years as a Research Scientist, I’ve decided to channel my passion for creativity, skills in visual problem solving and curious 
-                        mindset into the world of UI/UX Design. My role as a Research Scientist has equipped me with an assortment of skills including, unique perspective 
-                        in research processes, good communication, attention to detail and empathy. 
-                    </p>
-                    <a href="files/ama_brew_cv.pdf" class="botton contact">View my CV!</a>
-                    <!---Remove cv-->
-                </div>
-                <div class="row">
-                    <h2> A little bit more about myself!</h2>
-                </div>
-                <div class="row skills-tools"> <!---info-->
-                    <h2>Skills and Tools</h2>
                     <div class="row">
-                        <div class="column col-md-50">
-                            <h3>Skills</h3>
-                            <ul>
-                                <li>UX Research</li>
-                                <li>UI Design</li>
-                                <li>Competitive Analysis</li>
-                                <li>User Personas</li>
-                                <li>User Flows</li>
-                                <li>Branding & Logo Design</li>
-                                <li>Wireframes</li>
-                                <li>Prototype</li>
-                                <li>Usability Testing</li>
-                                <li>Interview</li>
-                                <li>A/B Testing</li>
-                                <li>Front-End Development</li>
-                                </li>
-                            </ul>
+                        <p>After spending 5+ years as a Research Scientist, I’ve decided to channel my passion for creativity, skills in visual problem solving and curious 
+                            mindset into the world of UI/UX Design. My role as a Research Scientist has equipped me with an assortment of skills including, unique perspective 
+                            in research processes, good communication, attention to detail and empathy. 
+                        </p>
+                        <div class="center">
+                            <a href="files/ama_brew_cv.pdf" class="cv button">View my CV!</a>
                         </div>
-                        <div class="column col-md-50">
-                            <h3>Tools</h3>
-                            <ul>
-                                <li>Figma</li>
-                                <li>Adobe XD</li>
-                                <li>Sketch</li>
-                                <li>Canva</li>
-                                <li>HTML, CSS & Java Script</li>
-                            </ul>
+                    </div>
+                    <div class="row">
+                        <h2> A little bit more about myself!</h2>
+                        <div class="detail">
+                            <div class="column col-md-30">
+                                <div class="column">
+                                    <h3><span class=highlight3>I'M AN EXPLORER</span></h3>
+                                    <p>I love exploring new cultures, places and meeting people from around the world. </p>
+                                </div>
+                                <div class="img-block">
+                                    <img src="img/travelling.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="column col-md-30">
+                                <h3><span class=highlight3>I'M A MAKER</span></h3>
+                                <p>As a hobby, I hand make homeware and decor items such as soy wax candles, trinket trays and coaster sets to enhance the space you are proud to call home.</p>
+                                <div class="img-block">
+                                    <img src="img/candles.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="column col-md-30">
+                                <h3><span class=highlight3>I'M AN AUTHOR</span></h3>
+                                <p>In 2020 I self published my first childrens book called You Are Wonderfully Made in His Image on Amazon and Kindle.</p>
+                                <img src="img/book.JPG" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row skills-tools"> <!---info-->
+                        <h2>Skills and Tools</h2>
+                        <div class="row">
+                            <div class="column col-md-50">
+                                <h3><span class=highlight3> SKILLS</span></h3>
+                                <ul>
+                                    <li>UX Research</li>
+                                    <li>UI Design</li>
+                                    <li>Competitive Analysis</li>
+                                    <li>User Personas</li>
+                                    <li>User Flows</li>
+                                    <li>Branding & Logo Design</li>
+                                    <li>Wireframes</li>
+                                    <li>Prototype</li>
+                                    <li>Usability Testing</li>
+                                    <li>Interview</li>
+                                    <li>A/B Testing</li>
+                                    <li>Front-End Development</li>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="column col-md-50">
+                                <h3><span class=highlight3> TOOLS</span></h3>
+                                <ul>
+                                    <li>Figma</li>
+                                    <li>Adobe XD</li>
+                                    <li>Sketch</li>
+                                    <li>Canva</li>
+                                    <li>HTML, CSS & Java Script</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-    </main>
-    <footer id="contact">
-        <div class="container">
-            <h2>Get in touch with me</h2> <!--contactsection-->
-            <p>If you see somting you like or have any questions, please don't hesitate to contact me.</p>
-            <div class="email">
-                <a href="brewama16@gmail.com" class="button contact">Email Me</a>
             </div>
-            <div class="social">
-                <!--Social media handles-->
-                <a href="https://www.linkedin.com/in/ama-brew/" target="_blank">
-                    <img src="img/linkedin_logo.svg">
-                </a>
-                <a href="http://www.behance.net/amabrew" target="_blank">
-                    <img src="img/behance_logo.svg" alt="">
-                </a>
+        </main>
+        <footer id="contact">
+            <div class="container">
+                <h2>Get in touch with me</h2> <!--contactsection-->
+                <p>If you see someting you like or have any questions, please don't hesitate to contact me.</p>
+                <div class="email">
+                    <a href="brewama16@gmail.com" class="button contact">Email Me</a>
+                </div>
+                <div class="social">
+                    <!--Social media handles-->
+                    <a href="https://www.linkedin.com/in/ama-brew-7b1395103/" target="_blank">
+                        <img src="img/linkedin_logo.svg">
+                    </a>
+                    <a href="http://www.behance.net/amabrew" target="_blank">
+                        <img src="img/behance_logo.svg" alt="">
+                    </a>
+                </div>
+                <p>Copyright Ama Brew 2020</p>
             </div>
-            <p>Copyright Ama Brew 2020</p>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-</body>
-
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
