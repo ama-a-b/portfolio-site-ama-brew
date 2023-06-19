@@ -110,6 +110,60 @@ h4{
     color: #535353;
 }
 
+.underone-page h1 {
+    color: #f08606;
+    text-align: center;
+    font-weight: 900;
+    font-size: 10rem;
+    margin-top: 0;
+}
+
+.underone-page h2 {
+    color: #07049e;
+    text-align: center;
+    font-weight: 700;
+    font-size: 6rem;
+    margin-top: 0;
+}
+
+.underone-page footer h2 {
+    color:#873C13;
+    font-size:4rem;
+    font-weight:400;
+}
+
+.underone-page h3 {
+    color: #f08606;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 50px;
+}
+
+.underone-page h4 {
+    color: #080808;
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.underone-page h5 {
+    color: #777777;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-bottom: 0px;
+    margin-top: 80px;
+}
+
+.underone-page h6 {
+    color: #373636;
+    font-weight: 400;
+    font-size: 1.8rem;
+    letter-spacing: 4px;
+    margin-bottom: 0px;
+}
+
 .highlight3 {
     font-size: 2.2rem;
     font-weight: bold;
@@ -120,8 +174,19 @@ img{
     margin-top: 40px;
 }
 
+.smaller img {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.smaller2 img {
+    width: 50%;
+    margin-top: 40px;
+}
+
 .logo{
-    max-width: 50px;
+    max-width: 44px;
+    margin-top: 17px;
 }
 
 a{
@@ -229,6 +294,7 @@ header {
     text-align: center;
 }
 
+
 .summary-about h3 {
     color: #000000;
 }
@@ -236,6 +302,14 @@ header {
 .logo-project img {
     height: 100px;
     width: auto;
+}
+
+.top img {
+    margin-top: 0;
+}
+
+.section .top {
+    padding: 0 0;
 }
 
 nav ul{
@@ -418,7 +492,7 @@ footer {
     }
 
     .navtoggle img {
-        margin: 20px;
+        margin: 15px;
     }
 
     nav > ul {
@@ -494,7 +568,7 @@ footer {
     }
 
     .logo {
-        max-width: 65px;
+        max-width: 50px;
     }
 
     .skills-tools {
@@ -503,6 +577,7 @@ footer {
 
     .skills-tools .row {
         display: flex;
+        gap: 80px;
     }
 
     .work .row {
@@ -583,7 +658,12 @@ footer {
     }
 
     .work .row {
-        margin: 60px 0;
+        margin: 50px 0;
+    }
+
+    .underone-page .row .final-screens {
+        margin-top: 0;
+        margin-bottom: 90px;
     }
     
     #about-page h3 { margin-top: 0;
