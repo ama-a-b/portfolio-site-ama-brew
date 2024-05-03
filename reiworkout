@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <head>
+            <meta charset="UTF-8">
+            <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+            <link rel="manifest" href="favicon/site.webmanifest">
+            <meta name="msapplication-TileColor" content="#da532c">
+            <meta name="theme-color" content="#ffffff">
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+            <link rel="stylesheet" type="text/css" href="css/styles.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <script src="https://kit.fontawesome.com/20f502f007.js" crossorigin="anonymous"></script>
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-XKDGSZZNFE"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'G-XKDGSZZNFE');
+            </script>
+            <title>Project- Rei Workout</title>
+        </head>
+        <body>
+            <header>
+                <div class="container"> 
+                    <div class="navtoggle" id="myNavtoggle">
+                        <a href="index.html"><img src="img/logo.svg" alt="AmaBrew" class="logo"></a>
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html#work-section">Work</a></li>
+                                <li><a href="about.html">About Me</a></li>
+                                <li><a href="#contact" onclick="menuToggle()">Get in Touch</a></li>
+                                <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="section">
+                    <div class="container top">
+                        <img src="img/reiworkout/reiworkout.png" alt="My Image"> 
+                    </div>
+                </div>
+            </main>
+            <footer id="contact">
+                <div class="container"><!--Contact section-->
+                    <h2>Get in touch with me</h2>
+                    <p>If you see something you like or have any questions, please don't hesitate to contact me.</p>
+                    <div class="email">
+                        <a href="brewama16@gmail.com" class="button contact">Email Me</a>
+                    </div>
+                    <div class="social">
+                        <!--Social media handles-->
+                        <a href="https://www.linkedin.com/in/ama-brew-7b1395103/" target="_blank"> 
+                            <img src="img/linkedin_logo.svg" alt="My Image">
+                        </a>
+                         <a href="http://www.behance.net/amabrew" target="_blank">
+                            <img src="img/behance_logo.svg" alt="My Image">
+                        </a>
+                    </div>
+                    <p>Copyright Ama Brew 2020</p>
+                </div>
+            </footer>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+            <script src="js/scripts.js"></script>
+        </body>
+    </html>
